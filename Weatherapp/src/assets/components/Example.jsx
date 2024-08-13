@@ -6,7 +6,7 @@ const Example = () =>{
         <>
             <MessageBar message="Weather App"/>
             <br/>
-            <TextBox/>
+            <TextBox/ >
         </>
     );
 };
