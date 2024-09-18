@@ -1,0 +1,15 @@
+body{
+    align-items: center;
+}
+.box{
+    align-items: center;
+    text-align: center;
+    color: rgb(62, 131, 192);
+    background-color: bisque;
+
+}
+.input-field{
+    align-items: center;
+    width: 10%;
+    justify-content: ;
+}
