@@ -1,15 +1,26 @@
 body{
     align-items: center;
+    display: flex;
 }
 .box{
     align-items: center;
     text-align: center;
     color: rgb(62, 131, 192);
-    background-color: bisque;
-
+    /* background-color: bisque; */
+    background-image: linear-gradient(25deg, bisque, rgb(142, 176, 142));   
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50%;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0px;
+}
 }
 .input-field{
     align-items: center;
     width: 10%;
-    justify-content:center;   
+    justify-content:center;
+    display: flex;
+    
 }
