@@ -64,9 +64,17 @@ body{
     padding: 30px 65px;
     border-radius: 20px;
     box-shadow: 0 5px  10px black;
+    row-gap: 20px;
+}
+.box header{
+    height: 65px;
+    width: 65px;
+    background: #4070f4;
+    color: #fff;
 }
 form.input-field{
-    flex-direction: row`;
+    flex-direction: row;
+    column-gap: 20px;
 }
 form input{
     width: 45px;
