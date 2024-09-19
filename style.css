@@ -1,15 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Poppins', sans-serif;
+
+}
 body{
+    min-height: 100vh;
     align-items: center;
     display: flex;
-    background-color: grey;
+    background-color: #4070f4;
+    justify-content: center ;
 }
-.box{
+/*  */
+/* .inp.box{
     align-items: center;
     text-align: center;
     color: rgb(62, 131, 192);
     background-color: whitesmoke;
     /* background-image: linear-gradient(25deg, bisque, rgb(142, 176, 142));  */
-    width: 30%;  
+    /* width: 30%;  
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 2%;
@@ -17,14 +28,13 @@ body{
     border-radius: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 0px;
-}
-/* .input-field{
+}ut-field{
     align-items: center;
     width: 10%;
     justify-content:center;
     display: flex;
     margin: 0px;
-    background:bisque;
+    background:bisque; */
    /* align-items: center; */
    /* justify-content: center; */
     /* border-radius: 10px; */
@@ -37,9 +47,29 @@ body{
     bottom: 1px;
     left: 5px; */ 
 /*  */
-.pinbox{
+/* .pinbox{
     width:  30px;
     height: 30px;
     border-radius: 5px;
+    text-align: center;
+} */
+ :where(box, form, input-field){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+.box{
+    background: #fff;
+    padding: 30px 65px;
+    border-radius: 20px;
+    box-shadow: 0 5px  10px black;
+}
+form.input-field{
+    flex-direction: row`;
+}
+form input{
+    width: 45px;
+    height: 45px;
     text-align: center;
 }
