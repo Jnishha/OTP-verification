@@ -11,15 +11,14 @@ body{
     /* background-image: linear-gradient(25deg, bisque, rgb(142, 176, 142));  */
     width: 85%;  
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 5px;
     padding-top: 2%;
     padding-bottom: 2%;
     border-radius: 20px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 0px;
 }
-}
-.input-field{
+/* .input-field{
     align-items: center;
     width: 10%;
     justify-content:center;
@@ -28,13 +27,19 @@ body{
     background:bisque;
    /* align-items: center; */
    /* justify-content: center; */
-    border-radius: 10px;
-    height: 26px;
+    /* border-radius: 10px; */
+    /* height: 26px;
     width: 1%;
     border: 0;
     outline: 0;
-    cursor: -webkit-grab;
-    position: relative;
+    /* cursor: -webkit-grab; */
+    /* position: relative;
     bottom: 1px;
-    left: 5px;
+    left: 5px; */ 
+/*  */
+.pinbox{
+    width:  30px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
 }
