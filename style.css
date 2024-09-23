@@ -66,14 +66,14 @@ body{
     box-shadow: 0 5px  10px black;
     row-gap: 20px;
 }
-/* .box header{
+.box header{
     height: 65px;
     width: 65px;
     background: #4070f4;
     color: #fff;
     font-size: 2.5rem;
     border-radius: 50%;
-} */
+}
 form.input-field{
     display: flex;
     /* flex-direction: row; */
