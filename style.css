@@ -96,4 +96,19 @@ form input{
     outline: none;
     text-align: center;
     border: 1px solid #ddd;
+    font-size: 1.125rem;
+}
+.input-field input::-webkit-inner-spin-button,
+.input-field input::-webkit-outer-spin-button {
+    display: none;
+}
+form button{
+    margin-top: 25px;
+    width: 100%;
+    background: #4070f4;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    padding: 9px 0;
+    border-radius: 7px;
 }
