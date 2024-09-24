@@ -10,6 +10,7 @@ inputs.forEach((input, index1)) =>{
         if (currentInput.value.length > 1) {
             currentInput.value="";
             return;
+        
 }
-
+    
 window.addEventListener("load",()=>inputs[0].focus());
