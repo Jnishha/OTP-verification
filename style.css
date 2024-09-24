@@ -112,10 +112,12 @@ form button{
     padding: 9px 0;
     border-radius: 7px;
     cursor: pointer;
+    pointer-events: none;
     transition: all 0.5s ease;
 }
 form button.active{
     background: #4070f4;
+    pointer-events: auto;
 }
 form button:hover{
     background: #0e4bf1;
