@@ -13,7 +13,7 @@ inputs.forEach((input, index1) =>{
         }
         if (nextInput && nextInput.hasAttribute("disabled")&& currentInput.value!=""){
             nextInput.removeAttribute("disabled");
-            
+            nextInput.focus()
         }
     })   
 });
