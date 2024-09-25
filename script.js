@@ -15,6 +15,13 @@ inputs.forEach((input, index1) =>{
             nextInput.removeAttribute("disabled");
             nextInput.focus()
         }
+        if(e.key=="Backspace"){
+            inputs.forEach((input,index2) =>{
+                if(index1<=index2&& prevInput){
+                    input.setAttribute("disabled",true);
+                }
+        })
+        }
     })   
 });
     
