@@ -23,9 +23,14 @@ inputs.forEach((input, index1) =>{
                     currentInput.value="";
                     prevInput.focus();
                 }
-        })
+        });
         }
-    })   
+        if(!inputs[0].disabled && inputs[3].value !=""){
+            button.classList.add("active");
+            return;
+        }
+        button.classList.remove("active");
+    });  
 });
     
 window.addEventListener("load",()=>inputs[0].focus());
