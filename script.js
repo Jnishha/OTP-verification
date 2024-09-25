@@ -2,7 +2,7 @@ const inputs = document.querySelectorAll("input"),
 button = document.querySelector("button");
 
 inputs.forEach((input, index1) =>{
-    input.addEventListener("keyup", () => {
+    input.addEventListener("keyup", (e) => {
         const currentInput = input,
         nextInput = input.nextElementSibling,
         prevInput =  input.previousElementSibling;
@@ -15,6 +15,7 @@ inputs.forEach((input, index1) =>{
             nextInput.removeAttribute("disabled");
             nextInput.focus()
         }
+        // console.log
         if(e.key=="Backspace"){
             inputs.forEach((input,index2) =>{
                 if(index1<=index2 && prevInput){
