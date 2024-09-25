@@ -17,8 +17,10 @@ inputs.forEach((input, index1) =>{
         }
         if(e.key=="Backspace"){
             inputs.forEach((input,index2) =>{
-                if(index1<=index2&& prevInput){
+                if(index1<=index2 && prevInput){
                     input.setAttribute("disabled",true);
+                    currentInput.value="";
+                    prevInput.focus();
                 }
         })
         }
